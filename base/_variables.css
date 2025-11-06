@@ -1,0 +1,23 @@
+:root {
+  /* Typography */
+  --ff-primary: 'Poppins', sans-serif;
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-bold: 600;
+  --fs-base: 1.5rem; /* 15px since 1rem = 10px */
+
+  /* Colors */
+  --clr-red: hsl(0, 78%, 62%);
+  --clr-cyan: hsl(180, 62%, 55%);
+  --clr-orange: hsl(34, 97%, 64%);
+  --clr-blue: hsl(212, 86%, 64%);
+  --clr-grey-500: hsl(234, 12%, 34%);
+  --clr-grey-400: hsl(212, 6%, 44%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /* Layout */
+  --max-width: 110rem;
+  --radius: 0.8rem;
+  --shadow: 0 1rem 2rem rgba(0, 0, 0, 0.05);
+  --gap: 2rem;
+}

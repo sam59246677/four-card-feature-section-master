@@ -1,0 +1,27 @@
+/* fallback for old browsers */
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+/* .card--red { transform: translateY(-80px);   } */
+  .card--cyan {  transform: translateY(13rem); }
+  /* .card--orange { transform: translateY(-300px); } */
+  .card--orange { transform: translateX(373px); }
+  
+  .card--blue { transform: translateY(130px); }
+}
+
+/* ✅ modern container query */
+@container (min-width: 50rem) {
+  .card {
+    max-width: 36rem;
+  }
+}

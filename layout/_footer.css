@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  padding-block: 4rem;
+  font-size: 1.2rem;
+  color: var(--clr-grey-400);
+}
+
+.footer a {
+  color: var(--clr-blue);
+  font-weight: var(--fw-bold);
+}
+
+.footer a:hover {
+  color: color-mix(in srgb, var(--clr-blue) 60%, var(--clr-cyan));
+}
